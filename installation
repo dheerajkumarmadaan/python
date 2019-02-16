@@ -1,0 +1,17 @@
+Installation instructions
+
+This assumes a Linux or MAC environment. If there are people are on Windows environment or are unfamiliar with command line or a terminal environment please let me know before we start
+In below I am telling you to install a lot without telling what they are. Don't worry. Follow along. The explanation will be in the session
+Download Anaconda 3 distribution of Python from https://www.anaconda.com/distribution/. I am using Python 3.7.2 version
+Go through either of below to setup a new conda environment. Read through all what is shown on your terminal as you run the commands. I don't assume that you will be able to understand everything. But reading it is required.
+https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
+https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+The command I ran for above was conda create -n km-env python=3.7.2 anaconda
+activate your environment
+echo $CONDA_DEFAULT_ENV to check current environment was setup properly
+conda install jupyter
+conda install numpy
+conda install pandas
+mkdir nbs
+cd nbs
+jupyter notebook .. Check that a window opens in browser.
