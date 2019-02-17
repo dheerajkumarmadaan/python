@@ -20,3 +20,21 @@ jupyter notebook .. Check that a window opens in browser.
 
 conda activate km-env
 Make sure:conda info --envs shows km-env selected
+
+
+
+
+
+
+######################################################
+
+import sys
+import numpy as np
+import pandas as pd
+
+
+Cmd+shift+p
+goto terminal ipython
+
+
+!pwd (use bang and run terminal bash commands)
